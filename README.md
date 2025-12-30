@@ -1,156 +1,149 @@
 📊 Data Analyst Job Market Analysis — India 🇮🇳
 
+📌 Focus: Skill demand, salary trends, and optimal skills for Data Analysts in India
+📚 Inspired by: Luke Barousse (methodology only)
 
-📌 Overview
+🔍 Project Overview
 
-This project analyzes the Indian Data Analyst job market to understand skill demand, salary trends, and optimal skill combinations for aspiring and early-career data professionals.
+This project analyzes the Indian Data Analyst job market using real job posting data to answer:
 
-The project is inspired by the methodology taught by Luke Barousse, but the analysis, filtering, visualizations, and insights are entirely focused on India, resulting in market-specific conclusions that differ significantly from US-based studies.
+Which skills are most in demand in India?
+
+How do Data Analyst skills trend over time?
+
+How do salaries vary across data roles?
+
+Which skills offer the best balance of demand and pay?
+
+➡️ Unlike the original US-focused analysis, this project is fully India-specific, resulting in different insights and conclusions.
 
 🎯 Objectives
 
-This project answers four key questions for the Indian job market:
+Identify top skills for Data Analysts in India
 
-What skills are most in demand for Data Analysts in India?
+Analyze monthly skill trends
 
-How are core Data Analyst skills trending over time?
+Compare salary distributions across data roles
 
-How do salaries compare across data roles in India?
+Find optimal skills (high demand + high salary)
 
-Which skills are most optimal to learn (high demand + high pay)?
-
-🛠️ Tools & Technologies
+🛠 Tools & Technologies
 
 Python
 
-Pandas – Data cleaning & transformation
+Pandas – data cleaning & analysis
 
-Matplotlib & Seaborn – Data visualization
+Matplotlib & Seaborn – visualizations
 
-Jupyter Notebook – Analysis workflow
+Jupyter Notebook – exploration & analysis
 
-VS Code – Script execution
+VS Code – script execution
 
-Git & GitHub – Version control & documentation
+Git & GitHub – version control
 
 🧹 Data Preparation
 
-Converted posting dates for time-series analysis
+Converted job posting dates to datetime
 
-Parsed skill lists into structured formats
+Parsed skill lists into structured format
 
 Filtered India-based job postings only
 
-Removed missing and invalid salary records
+Removed missing / invalid salary records
 
-Standardized job titles for accurate comparison
+Standardized job titles for consistency
 
-🔍 Key Insights (India-Specific)
-1️⃣ Most In-Demand Skills for Data Analysts in India
+📈 Key Insights (India)
+🔹 Most In-Demand Skills
 
-From demand bar charts:
+Python & SQL dominate Data Analyst job postings
 
-Python and SQL dominate Indian Data Analyst job postings
+Excel and PowerPoint remain highly relevant
 
-Excel and PowerPoint remain highly relevant, reflecting business-heavy analyst roles
+Power BI demand is stronger than Tableau
 
-Power BI demand is strong, often exceeding Tableau in Indian postings
+Business-focused tools appear more frequently than in US markets
 
-Traditional tools like Word and SAS still appear, unlike in US-focused analyses
+🔹 Skill Trends Over Time
 
-📌 India places a stronger emphasis on business reporting and tooling compared to pure analytics.
+SQL remains consistently the most requested skill
 
-2️⃣ Trending Skills for Data Analysts (India)
+Python shows steady growth throughout the year
 
-From monthly trend line chart:
+Excel fluctuates but stays consistently important
 
-SQL remains consistently the most requested skill throughout the year
-
-Python shows steady growth, indicating increasing technical expectations
-
-Excel demand fluctuates but remains persistently high
-
-Power BI shows a clear upward trend, especially towards year-end
+Power BI shows a clear upward trend
 
 Tableau demand remains stable but secondary
 
-📌 Indian analyst roles are evolving slowly toward technical depth while retaining strong business orientation.
+🔹 Salary Distribution by Role
 
-3️⃣ Salary Distribution of Data Roles in India
+Machine Learning Engineers & Data Engineers earn the highest salaries
 
-From salary box plots:
+Data Analyst salaries show lower variance
 
-Machine Learning Engineers and Data Engineers earn significantly more than Data Analysts
+Senior roles pay more, but extreme outliers are rare
 
-Data Analyst salaries show lower variance, indicating standardized compensation bands
+Software Engineering salaries overlap but vary less
 
-Senior roles increase pay, but extreme outliers are rare compared to US markets
+🔹 Highest-Paid Skills
 
-Software Engineers overlap with Data roles but show less salary spread
+Specialized skills command the highest salaries:
 
-📌 In India, specialization and role type matter more than tool count for salary growth.
+dplyr
 
-4️⃣ Highest-Paid Skills for Data Analysts (India)
+GitLab
 
-From highest-paid skills bar chart:
+Bitbucket
 
-Niche and specialized tools like dplyr, GitLab, Bitbucket, Solidity, Hugging Face
-command very high median salaries
+Solidity
 
-These skills appear less frequently but indicate premium, specialized roles
+Hugging Face
 
-Infrastructure and data-platform skills (Cassandra, Couchbase, VMware) also pay well
+These skills appear less often but indicate high-value niche roles
 
-📌 High pay in India is driven by specialization, not popularity.
+🔹 Most Optimal Skills to Learn
 
-5️⃣ Most Optimal Skills to Learn (High Demand + High Pay)
+Best balance of demand and salary:
 
-By combining demand and salary charts:
+✅ SQL (mandatory foundation)
 
-Python → Best balance of demand and salary
+✅ Python (strong salary upside)
 
-SQL → Mandatory foundation skill
+✅ Power BI (high enterprise demand in India)
 
-Power BI → High demand with solid salary outcomes
+✅ Tableau (valuable but less dominant)
 
-Tableau → Valuable but slightly less dominant than Power BI
-
-SQL Server / Databases → Niche but strong salary upside
-
-📌 The optimal Indian Data Analyst stack blends business tools with technical depth.
+✅ Database tools (SQL Server, Oracle)
 
 📚 What I Learned
 
-Indian job markets prioritize business impact over pure analytics
+Indian Data Analyst roles are business-driven
 
 Skill demand varies significantly by geography
 
-Visualization clarity directly impacts insight quality
+Specialization matters more than tool quantity
 
-Salary optimization requires strategic specialization, not just popular tools
+Clean data and good visuals are critical for insight clarity
 
-⚠️ Challenges Faced
+⚠ Challenges Faced
 
-Handling missing and inconsistent salary data
+Missing and inconsistent salary data
 
-Normalizing diverse skill naming conventions
+Normalizing skill names across postings
 
-Designing readable visualizations for dense datasets
+Designing readable charts for dense datasets
 
-Balancing depth of analysis with project scope
+Balancing depth vs project scope
 
 ✅ Conclusion
 
-This project provides a data-driven view of the Indian Data Analyst job market, highlighting how skill demand, salary structure, and career strategy differ from Western markets.
+India values foundational + business-oriented skills
 
-Key takeaways:
+Power BI + SQL + Python is a strong analyst stack
 
-Build strong fundamentals first (SQL, Excel, Python)
+Specialization unlocks higher salary bands
 
-Add Power BI for immediate employability in India
+Continuous skill tracking is essential in a fast-changing market
 
-Specialize strategically to unlock higher salary bands
-
-Continuously track market trends to stay relevant
-
-This repository serves as a practical reference for Data Analysts targeting roles in India and a solid foundation for future market-specific studies.
+This project serves as a practical reference for Data Analysts targeting the Indian job market.
