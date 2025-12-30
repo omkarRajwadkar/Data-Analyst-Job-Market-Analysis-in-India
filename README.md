@@ -1,4 +1,6 @@
 📊 Data Analyst Job Market Analysis — India 🇮🇳
+
+
 📌 Overview
 
 This project analyzes the Indian Data Analyst job market to understand skill demand, salary trends, and optimal skill combinations for aspiring and early-career data professionals.
